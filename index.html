@@ -18,7 +18,7 @@
 
 <body>
     <!-- Banner  section  start -->
-    <div class="parrent-div justify-between  min-h-[200px] max-w-[1250px] mx-auto flex p-10">
+    <div class="parrent-div justify-between  min-h-[200px] max-w-[1250px] mx-auto flex flex-col md:flex-row p-10">
         <div class="left-div ">
             <h1 class="text-[50px] font-bold">It's a good <br>Tea time at The Tea House</h1>
             <p class="text-[18px] my-10">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your
@@ -42,7 +42,7 @@
     </div>
     <!-- Banner  section  end -->
     <!-- Feature Card Section Start -->
-    <section class=" min-h-[200px] max-w-[1250px] mx-auto mt-[100px] p-10">
+    <section class=" min-h-[200px] max-w-[1250px] mx-auto mt-[100px] p-10 bg-slate-600">
         <div>
             <h1 class="text-4xl font-bold text-center ">Our Featured products</h1>
             <p class="text-center my-10 text-2xl">Lorem ipsum dolor, sit amet consectetur adipisicing <br>elit. Iusto,
@@ -77,7 +77,8 @@
         </div>
     </section>
     <!-- Great Tea Section -->
-    <div class="parent-div max-w-[1250px] mx-auto h-[600px]  mt-5 flex flex-col md:flex-row gap-10 ">
+    <div
+        class="parent-div max-w-[1250px] mx-auto h-[900px] md:h-[600px] flex flex-col md:flex-row gap-10 p-10 bg-slate-500">
         <div class="left-div md:w-1/2  h-full grid grid-cols-2 grid-rows-3 gap-5 ">
             <div class=" bg-gradient-to-tr from-red-300 to-slate-600 rounded-xl"></div>
             <div class=" row-span-2 bg-green-300 flex justify-center items-center rounded-xl"> <img
@@ -94,11 +95,53 @@
             <p class="text-xl"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptate?</p>
             <h1 class="text-xl font-bold mt-8">Unique Taste</h1>
             <p class="text-xl"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptate?</p>
-
         </div>
-
     </div>
 
+    <!-- Meet Our Client Section -->
+    <div class="max-w-[1250px] mx-auto
+    px-10 md:px-10
+    py-10 md:p-10
+    bg-gradient-to-tr from-red-500 to-blue-400 rounded-lg
+    flex flex-col md:flex-row
+    h-[1100px] md:h-[600px]
+    my-10">
+
+
+        <div class="left-div md:w-1/2  h-full flex justify-center items-center">
+            <div>
+                <h1 class="text-4xl font-bold"> Meet Our Super <br> Clients </h1>
+                <p class="mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, consectetur. </p>
+                <button class="w-[100px] h-[35px] bg-white rounded mt-5 font-bold">Show All</button>
+            </div>
+        </div>
+        <div class="right-div md:w-1/2 h-full relative">
+            <div class="customer-review h-[200px]  w-[70%] bg-slate-100 rounded-lg p-10 absolute top-25 z-10 ">
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, velit.</p>
+                <h2 class="font-bold my-5"> Ronaldo.jr</h2>
+                <div class="absolute -top-6 -left-5 bg-white rounded-full p-1">
+                    <img src="/images/client.png" alt="">
+                </div>
+            </div>
+            <div
+                class="customer-review h-[200px]  w-[70%] bg-red-200 rounded-lg p-10 absolute top-5 left-30 opacity-60">
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, velit.</p>
+                <h2 class="font-bold my-5"> Ronaldo.jr</h2>
+                <div class="absolute -top-6 -left-5 bg-white rounded-full p-1">
+                    <img src="/images/client.png" alt="">
+                </div>
+            </div>
+            <div
+                class="customer-review h-[200px]  w-[70%] bg-green-200 rounded-lg p-10 absolute top-80 left-20 opacity-60">
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, velit.</p>
+                <h2 class="font-bold my-5"> Ronaldo.jr</h2>
+                <div class="absolute -top-6 -left-5 bg-white rounded-full p-1">
+                    <img src="/images/client.png" alt="">
+                    <img src="/images/circles.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
